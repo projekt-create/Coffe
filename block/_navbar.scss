@@ -1,0 +1,126 @@
+.navbar{
+height: 700px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: 40px;
+
+&_top{
+width: 1290px;
+height: 26px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: fixed;
+z-index: 3;
+}
+
+&_list{
+width: 283px;
+height: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+&_text{
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+
+color: #83888F;
+
+}
+
+&_text:hover{
+color: #535557;
+}
+}
+
+&_buttom{
+width: 1290px;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #83888F;
+border-radius: 18px;
+margin-top: 80px;
+}
+
+&_info{
+width: 493px;
+height: 367px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: -560px;
+
+&_text1{
+width: 493px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+
+color: #FEFCF7;
+
+}
+
+&_text2{
+width: 445px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+}
+}
+&_button{
+
+width: 217px;
+height: 56px;
+
+background: #0E8784;
+border-radius: 6px;
+border: none;
+
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+
+color: #FEFCF7;
+
+&:hover{
+
+background: #11dad6;
+border-radius: 6px;
+
+color: #FEFCF7;
+
+}
+
+&:active{
+background: inherit;
+border: 1px solid #1b3e61;
+
+color: #255f99;
+}
+}
+}
