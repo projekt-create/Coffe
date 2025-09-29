@@ -1,0 +1,56 @@
+.qulty{
+width: 1280px;
+height: 474px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background: rgba(44, 52, 62, 1);
+border-radius: 5px;
+
+&_right{
+width: 540px;
+height: 210px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+&_text1{
+
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+color: #FEFCF7;
+
+}
+
+&_text2{
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+
+color: #9c9c9c;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+}
+}
+
+&_left{
+width: 454px;
+height: 474px;
+border-radius: 6px;
+border: none;
+background-color: inherit;
+
+&_img{
+margin-top: -90px;
+border-radius: 8px;
+}
+}
+}

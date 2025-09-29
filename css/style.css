@@ -19,11 +19,21 @@ li {
 }
 
 .navbar {
-  height: 700px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 40px;
+}
+.navbar_top_wrapper {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 7px;
+  z-index: 3;
+  position: fixed;
 }
 .navbar_top {
   width: 1290px;
@@ -31,8 +41,6 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
-  z-index: 3;
 }
 .navbar_list {
   width: 283px;
@@ -56,11 +64,16 @@ li {
 }
 .navbar_buttom {
   width: 1290px;
-  height: 600px;
+  height: 450px;
+  background-image: url(../img/navbar_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   display: flex;
+  top: 0%;
   align-items: center;
   justify-content: center;
-  background-color: #83888F;
   border-radius: 18px;
   margin-top: 80px;
 }
@@ -378,4 +391,168 @@ li {
 }
 .footer_social_media .instagram_icon:hover {
   fill: #83888F;
+}
+
+.navbar_bg {
+  width: 1290px;
+  height: 450px;
+  background-image: url(../img/Group\ 7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+  display: flex;
+  top: 0%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  margin-top: 80px;
+}
+
+.navbar_information {
+  width: 493px;
+  height: 187px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: -560px;
+}
+
+.commitment {
+  width: 1110px;
+  height: 520px;
+  margin: 200px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.commitment_right {
+  width: 445px;
+  height: 520px;
+}
+.commitment_left {
+  width: 540px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.commitment_left_text1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+.commitment_left_text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.quarters {
+  width: 1045px;
+  height: 366px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quarters_top {
+  width: 255px;
+  height: 32px;
+}
+.quarters_top_text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+.quarters_buttom {
+  width: 1045px;
+  height: 262px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.quarters_buttom_info {
+  width: 285px;
+  height: 262px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quarters_buttom_info_img {
+  width: 40px;
+  height: 49px;
+}
+.quarters_buttom_info_text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+.quarters_buttom_info_list {
+  width: 285px;
+  height: 107px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quarters_buttom_info_list_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: #3a4e4e;
+}
+
+.qulty {
+  width: 1280px;
+  height: 474px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(44, 52, 62);
+  border-radius: 5px;
+}
+.qulty_right {
+  width: 540px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.qulty_right_text1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+.qulty_right_text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #9c9c9c;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.qulty_left {
+  width: 454px;
+  height: 474px;
+  border-radius: 6px;
+  border: none;
+  background-color: inherit;
+}
+.qulty_left_img {
+  margin-top: -90px;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+.navbar_bg{
+width: 1290px;
+height: 450px;
+background-image: url(../img/Group\ 7.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: right;
+display: flex;
+top: 0%;
+align-items: center;
+justify-content: center;
+border-radius: 18px;
+margin-top: 80px;
+}
+
+.navbar_information{
+width: 493px;
+height: 187px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: -560px;
+}
