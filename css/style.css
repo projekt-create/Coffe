@@ -34,6 +34,7 @@ li {
   border-radius: 7px;
   z-index: 3;
   position: fixed;
+  top: 0px;
 }
 .navbar_top {
   width: 1290px;
@@ -402,7 +403,6 @@ li {
   background-attachment: fixed;
   background-position: right;
   display: flex;
-  top: 0%;
   align-items: center;
   justify-content: center;
   border-radius: 18px;
@@ -555,4 +555,272 @@ li {
 .qulty_left_img {
   margin-top: -90px;
   border-radius: 8px;
+}
+
+.create_navbar_bg_img {
+  width: 1290px;
+  height: 450px;
+  background-image: url(../img/page3-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  margin-top: 80px;
+}
+
+.navbar_information {
+  width: 493px;
+  height: 187px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: -560px;
+}
+
+.pick {
+  width: 1280px;
+  height: 653px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #090f18;
+  border-radius: 16px;
+}
+.pick_img {
+  width: 766px;
+  margin-right: 270px;
+}
+.pick_info {
+  width: 1045px;
+  height: 357px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pick_info_block {
+  width: 285px;
+  height: 357px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pick_info_block_text1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+.pick_info_block_text2 {
+  width: 253px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+.pick_info_block_text3 {
+  width: 285px;
+  height: 130px font-style normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.Preferences {
+  width: 1110px;
+  margin: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.Preferences .Preferences_right {
+  width: 255px;
+  height: 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  word-spacing: 14px;
+}
+.Preferences .Preferences_right .Preferences_right_text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(51, 61, 75, 0.4941176471);
+}
+.Preferences .Preferences_right .Preferences_right_text:nth-child(9) {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+.Preferences .Preferences_left {
+  width: 730px;
+  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Preferences .Preferences_left_drink {
+  width: 730px;
+  height: 354px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Preferences .Preferences_left_drink_top {
+  width: 730px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Preferences .Preferences_left_drink_top_text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+.Preferences .Preferences_left_drink_top_icon {
+  width: 17px;
+  height: 19px;
+}
+.Preferences .Preferences_left_drink_buttom {
+  width: 730px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Preferences .Preferences_left_drink_buttom_div1 {
+  width: 228px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #00ffff;
+  border-radius: 10px;
+}
+.Preferences .Preferences_left_drink_buttom_div {
+  width: 228px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Preferences .Preferences_left_drink_buttom_div_text {
+  width: 178px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+.Preferences .Preferences_left_drink_buttom_div_text4 {
+  width: 178px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.Preferences .Preferences_left_drink_buttom_div_text2 {
+  width: 178px;
+  height: 78px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(51, 61, 75, 0.8784313725);
+}
+.Preferences .Preferences_left_drink_buttom_div_text3 {
+  width: 178px;
+  height: 78px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.8784313725);
+}
+
+.order {
+  width: 1110px;
+  height: 290px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}
+.order_about {
+  width: 730px;
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #292933;
+  border-radius: 16px;
+}
+.order_about_text1 {
+  width: 602px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.order_about_text2 {
+  width: 602px;
+  height: 120px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+.order_about_text2 span {
+  color: rgb(0, 116, 116);
+}
+.order_btn {
+  width: 217px;
+  height: 56px;
+  background: #0E8784;
+  border-radius: 6px;
+  border: none;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+}
+.order_btn:hover {
+  background: #ffffff;
+  border: 2px solid #0E8784;
+  color: #0E8784;
 }/*# sourceMappingURL=style.css.map */

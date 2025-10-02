@@ -1,0 +1,162 @@
+.Preferences{
+width: 1110px;
+margin: auto;
+display: flex;
+align-items: start;
+justify-content: space-between;
+
+.Preferences_right{
+width: 255px;
+height: 356px;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: space-between;
+word-spacing: 14px;
+
+.Preferences_right_text{
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+
+color: #333d4b7e;
+
+&:nth-child(9){
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+
+color: #333D4B;
+
+}
+}
+}
+
+.Preferences_left{
+width: 730px;
+height: 2000px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+&_drink{
+width: 730px;
+height: 354px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+&_top{
+width: 730px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+&_text{
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+color: #83888F;
+
+}
+
+&_icon{
+width: 17px;
+height: 19px;
+}
+}
+
+&_buttom{
+width: 730px;
+height: 250px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+&_div1{
+width: 228px;
+height: 250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+background-color: #00ffff;
+border-radius: 10px;
+}
+
+&_div{
+width: 228px;
+height: 250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+
+
+
+
+&_text{
+width: 178px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+
+color: #333D4B;
+
+}
+
+&_text4{
+width: 178px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+
+color: #ffffff;
+}
+
+&_text2{
+width: 178px;
+height: 78px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #333d4be0;
+
+}
+
+&_text3{
+width: 178px;
+height: 78px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #ffffffe0;
+}
+}
+}
+}
+}
+}
